@@ -1,7 +1,7 @@
 -- Author: Yevgeniy Simonov, 2020
 app = cf.GetApplication()
 app:NewProject()
-project = app:OpenFile([[D:\FEKO_proj_new\Yevgeniy\4x4 Array Wire Model\TEST IMPEDANCE\191103_WM_Array.cfx]])
+project = app:OpenFile([[D:\FEKO_proj_new\Yevgeniy\4x4 Array Wire Model\TEST IMPEDANCE\191103_WM_Array.cfx]]) --add your own path
 
 -- Specify the main object 
 Union1 = project.Geometry["Union1"]
